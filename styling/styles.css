@@ -29,10 +29,6 @@ h3 {
   opacity: 0.7;
 }
 
-.app-title {
-  font-size: 75px;
-}
-
 p {
   background: var(--secondary-color);
   padding: 20px;
@@ -104,6 +100,9 @@ p {
 }
 
 @media (max-width: 576px) {
+  h2 {
+    font-size: 35px;
+  }
   .page-heading {
     font-size: 60px;
   }
